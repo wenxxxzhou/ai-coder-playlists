@@ -9,4 +9,3 @@
 |  ----  |  ----  |
 | `edl2srt_aicoding_k2.bat`  | [moonshotai/Kimi-K2-Thinking](https://huggingface.co/moonshotai/Kimi-K2-Thinking "HF") |
 | `GLM47_edl2srt_fast.ps1` | [zai-org/GLM-4.7](https://huggingface.co/zai-org/GLM-4.7 "HF") |
-# ai-coder-playlists
