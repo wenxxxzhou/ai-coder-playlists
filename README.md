@@ -1,5 +1,5 @@
 
-> I’m thrilled to have put together some scripts using AI. My sincere thanks go out to those pushing the boundaries of science, and of course, to the "machines" themselves. 
+> I’m thrilled to have put together some scripts (all in .\prop) using AI. My sincere thanks go out to those pushing the boundaries of science, and of course, to the "machines" themselves. 
 > 
 > Most of the README's text was translated by [gemini-3-flash-preview](https://blog.google/products/gemini/gemini-3-flash/ "blog.google"). 
 
