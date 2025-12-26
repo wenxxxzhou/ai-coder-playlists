@@ -1,3 +1,10 @@
+# ============================================================================
+# File: Find-DuplicateFiles.ps1
+# Purpose: Monitor and detect duplicate files in a directory (by filename)
+# Author: MiniMax Agent
+# Created: 2025-12-27
+# ============================================================================
+
 param(
     [Parameter(Mandatory = $true)]
     [string]$DirectoryPath

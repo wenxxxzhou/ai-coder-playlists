@@ -6,6 +6,21 @@
     
 .DESCRIPTION
     采用手动哈希表分组算法，性能提升35-50%
+    基于Kimi (Moonshot AI) 生成的优化版本
+    
+.NOTES
+    Author      : Kimi (AI Assistant by Moonshot AI)
+    Generated   : 2025-01-09
+    Version     : 1.1.0
+    License     : MIT
+#>
+
+<#
+.SYNOPSIS
+    高性能重复文件检测脚本（完整详细版）
+    
+.DESCRIPTION
+    采用手动哈希表分组算法，性能提升35-50%
     显示完整的文件元数据：大小、修改时间、创建时间、扩展名、属性、相对路径
     静默跳过权限错误文件
 
