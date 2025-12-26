@@ -5,10 +5,11 @@
 
 ## "playlist" 
 
-|  🤖Scripts  |  🤗AI-coders  |
-|  ----  |  ----  |
-| `edl2srt_KIMIK2.bat`  | [moonshotai/Kimi-K2-Thinking](https://huggingface.co/moonshotai/Kimi-K2-Thinking "HF") |
-| `edl2srt_GLM47.ps1` | [zai-org/GLM-4.7](https://huggingface.co/zai-org/GLM-4.7 "HF") |
+|  🤗[zai-org/GLM-4.7](https://huggingface.co/zai-org/GLM-4.7 "HF")  |  🤗[moonshotai/Kimi-K2-Thinking](https://huggingface.co/moonshotai/Kimi-K2-Thinking "HF")  |  🤗[MiniMaxAI/MiniMax-M2.1](https://huggingface.co/MiniMaxAI/MiniMax-M2.1 "HF")  |
+|  ----  |  ----  | ----  |
+|  `prop\EDL to SRT\edl2srt_GLM47.ps1`  |  `prop\EDL to SRT\edl2srt_KIMIK2.bat`  |    |
+|  `prop\findDuplicateFiles\Find-Duplicates-GLM27.ps1`  |  `prop\findDuplicateFiles\Find-Duplicates-KIMIK2.ps1`  |  `prop\findDuplicateFiles\Find-DuplicateFiles-MINIMAX21.ps1`  |
+|    |    |    |
 
 ___
 
@@ -20,3 +21,11 @@ ___
 - The default encoding is set to `Windows 1252` (EDL exported from Premiere Pro). 
   - Force-decode as UTF-8 encoding `".\edl2srt.ps1" "input.edl" "output.srt" -Encoding UTF8 -Fps 23.976` 
 - Support for fractional frame rates. 
+
+### findDuplicateFiles
+
+```
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+.\findDuplicateFiles.ps1 -DirectoryPath ""
+```
+ 
